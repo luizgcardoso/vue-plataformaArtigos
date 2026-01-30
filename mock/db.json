@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tecnologia",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "name": "Programação",
+      "parentId": 1
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "parentId": 2
+    },
+    {
+      "id": 4,
+      "name": "Lifestyle",
+      "parentId": null
+    },
+    {
+      "id": 5,
+      "name": "Viagens",
+      "parentId": 4
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "name": "Introdução ao JS",
+      "description": "Resumo",
+      "content": "Conteúdo do artigo",
+      "categoryId": 3,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Melhores destinos 2025",
+      "description": "Resumo",
+      "content": "Conteúdo",
+      "categoryId": 5,
+      "userId": 1
+    },
+    {
+      "name": "tipos primitivos",
+      "description": "sao 4 tipos basicos primitivos",
+      "userId": 1,
+      "categoryId": 3,
+      "content": "blablab",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "1234",
+      "admin": true
+    }
+  ]
+}
